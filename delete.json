@@ -1,0 +1,1155 @@
+[
+    {
+        "id": 30934,
+        "date": "2021-11-13T23:19:07",
+        "date_gmt": "2021-11-13T23:19:07",
+        "guid": {
+            "rendered": "https://wordpress-575854-4040987.cloudwaysapps.com/courses/4-square-breathing/"
+        },
+        "modified": "2024-03-07T06:32:28",
+        "modified_gmt": "2024-03-07T06:32:28",
+        "slug": "4-square-breathing",
+        "status": "publish",
+        "type": "sfwd-courses",
+        "link": "https://wordpress-575854-4040987.cloudwaysapps.com/courses/4-square-breathing/",
+        "title": {
+            "rendered": "4 Square Breathing"
+        },
+        "content": {
+            "rendered": "<p><b>2:15</b></p>\n",
+            "protected": false
+        },
+        "author": 79,
+        "featured_media": 29825,
+        "menu_order": 0,
+        "template": "",
+        "meta": {
+            "footnotes": ""
+        },
+        "ld_course_category": [
+            257,
+            231
+        ],
+        "ld_course_tag": [
+            281,
+            265,
+            282,
+            260,
+            283,
+            287,
+            284,
+            286,
+            285,
+            288
+        ],
+        "course_materials": "",
+        "course_price_type": "free",
+        "custom_button_label": "",
+        "custom_button_url": "",
+        "course_price": "",
+        "course_prerequisite_enabled": "",
+        "course_prerequisite": "",
+        "course_prerequisite_compare": "ANY",
+        "course_points_enabled": "",
+        "course_points": "",
+        "course_points_access": "",
+        "course_disable_lesson_progression": "",
+        "expire_access": "",
+        "expire_access_days": 0,
+        "expire_access_delete_progress": "",
+        "_links": {
+            "self": [
+                {
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/sfwd-courses/30934"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/sfwd-courses"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/types/sfwd-courses"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/users/79"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 9,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/sfwd-courses/30934/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 56491,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/sfwd-courses/30934/revisions/56491"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/media/29825"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/media?parent=30934"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "ld_course_category",
+                    "embeddable": true,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/ld_course_category?post=30934"
+                },
+                {
+                    "taxonomy": "ld_course_tag",
+                    "embeddable": true,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/ld_course_tag?post=30934"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 35730,
+        "date": "2022-01-07T17:58:57",
+        "date_gmt": "2022-01-07T17:58:57",
+        "guid": {
+            "rendered": "https://wordpress-575854-4040987.cloudwaysapps.com/courses/4-types-of-body-constitution/"
+        },
+        "modified": "2024-03-07T09:13:07",
+        "modified_gmt": "2024-03-07T09:13:07",
+        "slug": "4-types-of-body-constitution",
+        "status": "publish",
+        "type": "sfwd-courses",
+        "link": "https://wordpress-575854-4040987.cloudwaysapps.com/courses/4-types-of-body-constitution/",
+        "title": {
+            "rendered": "4 Types of Body Constitution"
+        },
+        "content": {
+            "rendered": "<p>7:13</p>\n",
+            "protected": false
+        },
+        "author": 768,
+        "featured_media": 35609,
+        "menu_order": 0,
+        "template": "",
+        "meta": {
+            "footnotes": ""
+        },
+        "ld_course_category": [
+            231,
+            271
+        ],
+        "ld_course_tag": [],
+        "course_materials": "",
+        "course_price_type": "free",
+        "custom_button_label": "",
+        "custom_button_url": "",
+        "course_price": "",
+        "course_prerequisite_enabled": "",
+        "course_prerequisite": "",
+        "course_prerequisite_compare": "ANY",
+        "course_points_enabled": "",
+        "course_points": "",
+        "course_points_access": "",
+        "course_disable_lesson_progression": "",
+        "expire_access": "",
+        "expire_access_days": 0,
+        "expire_access_delete_progress": "",
+        "_links": {
+            "self": [
+                {
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/sfwd-courses/35730"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/sfwd-courses"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/types/sfwd-courses"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/users/768"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 2,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/sfwd-courses/35730/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 56199,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/sfwd-courses/35730/revisions/56199"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/media/35609"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/media?parent=35730"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "ld_course_category",
+                    "embeddable": true,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/ld_course_category?post=35730"
+                },
+                {
+                    "taxonomy": "ld_course_tag",
+                    "embeddable": true,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/ld_course_tag?post=35730"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 40397,
+        "date": "2022-03-17T09:56:56",
+        "date_gmt": "2022-03-17T09:56:56",
+        "guid": {
+            "rendered": "https://wordpress-575854-4040987.cloudwaysapps.com/courses/5-easy-tips-for-stiff-neck/"
+        },
+        "modified": "2024-01-25T04:56:02",
+        "modified_gmt": "2024-01-25T04:56:02",
+        "slug": "5-easy-tips-for-stiff-neck",
+        "status": "publish",
+        "type": "sfwd-courses",
+        "link": "https://wordpress-575854-4040987.cloudwaysapps.com/courses/5-easy-tips-for-stiff-neck/",
+        "title": {
+            "rendered": "5 Easy Tips for Stiff Neck"
+        },
+        "content": {
+            "rendered": "<p>02:15</p>\n",
+            "protected": false
+        },
+        "author": 33,
+        "featured_media": 40731,
+        "menu_order": 0,
+        "template": "",
+        "meta": {
+            "footnotes": ""
+        },
+        "ld_course_category": [
+            231,
+            460
+        ],
+        "ld_course_tag": [],
+        "course_materials": "",
+        "course_price_type": "free",
+        "custom_button_label": "",
+        "custom_button_url": "",
+        "course_price": "",
+        "course_prerequisite_enabled": "",
+        "course_prerequisite": "",
+        "course_prerequisite_compare": "ANY",
+        "course_points_enabled": "",
+        "course_points": "",
+        "course_points_access": "",
+        "course_disable_lesson_progression": "",
+        "expire_access": "",
+        "expire_access_days": 0,
+        "expire_access_delete_progress": "",
+        "_links": {
+            "self": [
+                {
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/sfwd-courses/40397"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/sfwd-courses"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/types/sfwd-courses"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/users/33"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 1,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/sfwd-courses/40397/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 41104,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/sfwd-courses/40397/revisions/41104"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/media/40731"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/media?parent=40397"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "ld_course_category",
+                    "embeddable": true,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/ld_course_category?post=40397"
+                },
+                {
+                    "taxonomy": "ld_course_tag",
+                    "embeddable": true,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/ld_course_tag?post=40397"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 40379,
+        "date": "2022-03-17T09:56:52",
+        "date_gmt": "2022-03-17T09:56:52",
+        "guid": {
+            "rendered": "https://wordpress-575854-4040987.cloudwaysapps.com/courses/5-eating-tips-for-a-healthy-heart-%e2%9d%a4%ef%b8%8f/"
+        },
+        "modified": "2023-11-02T14:45:34",
+        "modified_gmt": "2023-11-02T14:45:34",
+        "slug": "5-eating-tips-for-a-healthy-heart-%e2%9d%a4%ef%b8%8f",
+        "status": "publish",
+        "type": "sfwd-courses",
+        "link": "https://wordpress-575854-4040987.cloudwaysapps.com/courses/5-eating-tips-for-a-healthy-heart-%e2%9d%a4%ef%b8%8f/",
+        "title": {
+            "rendered": "5 Eating Tips for a Healthy Heart ❤️"
+        },
+        "content": {
+            "rendered": "<p>03:04</p>\n",
+            "protected": false
+        },
+        "author": 1273,
+        "featured_media": 40683,
+        "menu_order": 0,
+        "template": "",
+        "meta": {
+            "footnotes": ""
+        },
+        "ld_course_category": [
+            231,
+            296
+        ],
+        "ld_course_tag": [],
+        "course_materials": "",
+        "course_price_type": "closed",
+        "custom_button_label": "",
+        "custom_button_url": "",
+        "course_price": "",
+        "course_prerequisite_enabled": "",
+        "course_prerequisite": "",
+        "course_prerequisite_compare": "ANY",
+        "course_points_enabled": "",
+        "course_points": "",
+        "course_points_access": "",
+        "course_disable_lesson_progression": "",
+        "expire_access": "",
+        "expire_access_days": 0,
+        "expire_access_delete_progress": "",
+        "_links": {
+            "self": [
+                {
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/sfwd-courses/40379"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/sfwd-courses"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/types/sfwd-courses"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/users/1273"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 1,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/sfwd-courses/40379/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 41086,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/sfwd-courses/40379/revisions/41086"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/media/40683"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/media?parent=40379"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "ld_course_category",
+                    "embeddable": true,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/ld_course_category?post=40379"
+                },
+                {
+                    "taxonomy": "ld_course_tag",
+                    "embeddable": true,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/ld_course_tag?post=40379"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 38166,
+        "date": "2022-02-13T16:02:02",
+        "date_gmt": "2022-02-13T16:02:02",
+        "guid": {
+            "rendered": "https://wordpress-575854-4040987.cloudwaysapps.com/courses/5-elements-in-tcm-and-food-therapy/"
+        },
+        "modified": "2024-01-23T12:03:02",
+        "modified_gmt": "2024-01-23T12:03:02",
+        "slug": "5-elements-in-tcm-and-food-therapy",
+        "status": "publish",
+        "type": "sfwd-courses",
+        "link": "https://wordpress-575854-4040987.cloudwaysapps.com/courses/5-elements-in-tcm-and-food-therapy/",
+        "title": {
+            "rendered": "5 Elements in TCM and Food Therapy"
+        },
+        "content": {
+            "rendered": "<p>03:35</p>\n",
+            "protected": false
+        },
+        "author": 2539,
+        "featured_media": 38326,
+        "menu_order": 0,
+        "template": "",
+        "meta": {
+            "footnotes": ""
+        },
+        "ld_course_category": [
+            257,
+            231
+        ],
+        "ld_course_tag": [
+            281,
+            265,
+            282,
+            260,
+            283,
+            287,
+            284,
+            286,
+            285,
+            288
+        ],
+        "course_materials": "",
+        "course_price_type": "closed",
+        "custom_button_label": "",
+        "custom_button_url": "",
+        "course_price": "",
+        "course_prerequisite_enabled": "",
+        "course_prerequisite": "",
+        "course_prerequisite_compare": "ANY",
+        "course_points_enabled": "",
+        "course_points": "",
+        "course_points_access": "",
+        "course_disable_lesson_progression": "",
+        "expire_access": "",
+        "expire_access_days": 0,
+        "expire_access_delete_progress": "",
+        "_links": {
+            "self": [
+                {
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/sfwd-courses/38166"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/sfwd-courses"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/types/sfwd-courses"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/users/2539"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 1,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/sfwd-courses/38166/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 38625,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/sfwd-courses/38166/revisions/38625"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/media/38326"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/media?parent=38166"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "ld_course_category",
+                    "embeddable": true,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/ld_course_category?post=38166"
+                },
+                {
+                    "taxonomy": "ld_course_tag",
+                    "embeddable": true,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/ld_course_tag?post=38166"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 40378,
+        "date": "2022-03-17T09:56:52",
+        "date_gmt": "2022-03-17T09:56:52",
+        "guid": {
+            "rendered": "https://wordpress-575854-4040987.cloudwaysapps.com/courses/5-habits-for-a-long-healthy-life/"
+        },
+        "modified": "2024-01-29T14:18:47",
+        "modified_gmt": "2024-01-29T14:18:47",
+        "slug": "5-habits-for-a-long-healthy-life",
+        "status": "publish",
+        "type": "sfwd-courses",
+        "link": "https://wordpress-575854-4040987.cloudwaysapps.com/courses/5-habits-for-a-long-healthy-life/",
+        "title": {
+            "rendered": "5 Habits for a Long Healthy Life"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "author": 1273,
+        "featured_media": 40682,
+        "menu_order": 0,
+        "template": "",
+        "meta": {
+            "footnotes": ""
+        },
+        "ld_course_category": [
+            461,
+            231
+        ],
+        "ld_course_tag": [],
+        "course_materials": "",
+        "course_price_type": "closed",
+        "custom_button_label": "",
+        "custom_button_url": "",
+        "course_price": "",
+        "course_prerequisite_enabled": "",
+        "course_prerequisite": "",
+        "course_prerequisite_compare": "ANY",
+        "course_points_enabled": "",
+        "course_points": "",
+        "course_points_access": "",
+        "course_disable_lesson_progression": "",
+        "expire_access": "",
+        "expire_access_days": 0,
+        "expire_access_delete_progress": "",
+        "_links": {
+            "self": [
+                {
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/sfwd-courses/40378"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/sfwd-courses"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/types/sfwd-courses"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/users/1273"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 1,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/sfwd-courses/40378/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 41085,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/sfwd-courses/40378/revisions/41085"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/media/40682"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/media?parent=40378"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "ld_course_category",
+                    "embeddable": true,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/ld_course_category?post=40378"
+                },
+                {
+                    "taxonomy": "ld_course_tag",
+                    "embeddable": true,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/ld_course_tag?post=40378"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 40394,
+        "date": "2022-03-17T09:56:56",
+        "date_gmt": "2022-03-17T09:56:56",
+        "guid": {
+            "rendered": "https://wordpress-575854-4040987.cloudwaysapps.com/courses/5-tips-to-for-burnout-relief/"
+        },
+        "modified": "2024-01-24T05:06:31",
+        "modified_gmt": "2024-01-24T05:06:31",
+        "slug": "5-tips-to-for-burnout-relief",
+        "status": "publish",
+        "type": "sfwd-courses",
+        "link": "https://wordpress-575854-4040987.cloudwaysapps.com/courses/5-tips-to-for-burnout-relief/",
+        "title": {
+            "rendered": "5 Tips to for Burnout Relief"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "author": 33,
+        "featured_media": 38298,
+        "menu_order": 0,
+        "template": "",
+        "meta": {
+            "footnotes": ""
+        },
+        "ld_course_category": [
+            231,
+            238
+        ],
+        "ld_course_tag": [],
+        "course_materials": "",
+        "course_price_type": "closed",
+        "custom_button_label": "",
+        "custom_button_url": "",
+        "course_price": "",
+        "course_prerequisite_enabled": "",
+        "course_prerequisite": "",
+        "course_prerequisite_compare": "ANY",
+        "course_points_enabled": "",
+        "course_points": "",
+        "course_points_access": "",
+        "course_disable_lesson_progression": "",
+        "expire_access": "",
+        "expire_access_days": 0,
+        "expire_access_delete_progress": "",
+        "_links": {
+            "self": [
+                {
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/sfwd-courses/40394"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/sfwd-courses"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/types/sfwd-courses"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/users/33"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 1,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/sfwd-courses/40394/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 41101,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/sfwd-courses/40394/revisions/41101"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/media/38298"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/media?parent=40394"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "ld_course_category",
+                    "embeddable": true,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/ld_course_category?post=40394"
+                },
+                {
+                    "taxonomy": "ld_course_tag",
+                    "embeddable": true,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/ld_course_tag?post=40394"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 40391,
+        "date": "2022-03-17T09:56:52",
+        "date_gmt": "2022-03-17T09:56:52",
+        "guid": {
+            "rendered": "https://wordpress-575854-4040987.cloudwaysapps.com/courses/6-tips-for-fodmap-stacking/"
+        },
+        "modified": "2024-01-24T05:11:01",
+        "modified_gmt": "2024-01-24T05:11:01",
+        "slug": "6-tips-for-fodmap-stacking",
+        "status": "publish",
+        "type": "sfwd-courses",
+        "link": "https://wordpress-575854-4040987.cloudwaysapps.com/courses/6-tips-for-fodmap-stacking/",
+        "title": {
+            "rendered": "6 Tips for FODMAP stacking"
+        },
+        "content": {
+            "rendered": "<p>05:21</p>\n",
+            "protected": false
+        },
+        "author": 1113,
+        "featured_media": 40698,
+        "menu_order": 0,
+        "template": "",
+        "meta": {
+            "footnotes": ""
+        },
+        "ld_course_category": [
+            257,
+            231
+        ],
+        "ld_course_tag": [],
+        "course_materials": "",
+        "course_price_type": "closed",
+        "custom_button_label": "",
+        "custom_button_url": "",
+        "course_price": "",
+        "course_prerequisite_enabled": "",
+        "course_prerequisite": "",
+        "course_prerequisite_compare": "ANY",
+        "course_points_enabled": "",
+        "course_points": "",
+        "course_points_access": "",
+        "course_disable_lesson_progression": "",
+        "expire_access": "",
+        "expire_access_days": 0,
+        "expire_access_delete_progress": "",
+        "_links": {
+            "self": [
+                {
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/sfwd-courses/40391"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/sfwd-courses"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/types/sfwd-courses"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/users/1113"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 1,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/sfwd-courses/40391/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 41098,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/sfwd-courses/40391/revisions/41098"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/media/40698"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/media?parent=40391"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "ld_course_category",
+                    "embeddable": true,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/ld_course_category?post=40391"
+                },
+                {
+                    "taxonomy": "ld_course_tag",
+                    "embeddable": true,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/ld_course_tag?post=40391"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 40395,
+        "date": "2022-03-17T09:56:56",
+        "date_gmt": "2022-03-17T09:56:56",
+        "guid": {
+            "rendered": "https://wordpress-575854-4040987.cloudwaysapps.com/courses/7-anti-aging-tips-and-yoga-poses/"
+        },
+        "modified": "2024-01-24T05:58:37",
+        "modified_gmt": "2024-01-24T05:58:37",
+        "slug": "7-anti-aging-tips-and-yoga-poses",
+        "status": "publish",
+        "type": "sfwd-courses",
+        "link": "https://wordpress-575854-4040987.cloudwaysapps.com/courses/7-anti-aging-tips-and-yoga-poses/",
+        "title": {
+            "rendered": "7 Anti-Aging Tips and Yoga Poses"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "author": 33,
+        "featured_media": 40633,
+        "menu_order": 0,
+        "template": "",
+        "meta": {
+            "footnotes": ""
+        },
+        "ld_course_category": [
+            461,
+            231
+        ],
+        "ld_course_tag": [],
+        "course_materials": "",
+        "course_price_type": "closed",
+        "custom_button_label": "",
+        "custom_button_url": "",
+        "course_price": "",
+        "course_prerequisite_enabled": "",
+        "course_prerequisite": "",
+        "course_prerequisite_compare": "ANY",
+        "course_points_enabled": "",
+        "course_points": "",
+        "course_points_access": "",
+        "course_disable_lesson_progression": "",
+        "expire_access": "",
+        "expire_access_days": 0,
+        "expire_access_delete_progress": "",
+        "_links": {
+            "self": [
+                {
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/sfwd-courses/40395"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/sfwd-courses"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/types/sfwd-courses"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/users/33"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 1,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/sfwd-courses/40395/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 41102,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/sfwd-courses/40395/revisions/41102"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/media/40633"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/media?parent=40395"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "ld_course_category",
+                    "embeddable": true,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/ld_course_category?post=40395"
+                },
+                {
+                    "taxonomy": "ld_course_tag",
+                    "embeddable": true,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/ld_course_tag?post=40395"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 43894,
+        "date": "2022-05-20T18:29:11",
+        "date_gmt": "2022-05-20T18:29:11",
+        "guid": {
+            "rendered": "https://wordpress-575854-4040987.cloudwaysapps.com/?post_type=sfwd-courses&#038;p=43894"
+        },
+        "modified": "2024-01-24T06:05:11",
+        "modified_gmt": "2024-01-24T06:05:11",
+        "slug": "8-day-self-care-ayurveda-cleanse",
+        "status": "publish",
+        "type": "sfwd-courses",
+        "link": "https://wordpress-575854-4040987.cloudwaysapps.com/courses/8-day-self-care-ayurveda-cleanse/",
+        "title": {
+            "rendered": "8 Day Self Care Ayurveda Cleanse"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "author": 51,
+        "featured_media": 34304,
+        "menu_order": 0,
+        "template": "",
+        "meta": {
+            "footnotes": ""
+        },
+        "ld_course_category": [
+            231
+        ],
+        "ld_course_tag": [
+            540
+        ],
+        "course_materials": "",
+        "course_price_type": "closed",
+        "custom_button_label": "",
+        "custom_button_url": "",
+        "course_price": "",
+        "course_prerequisite_enabled": "",
+        "course_prerequisite": "",
+        "course_prerequisite_compare": "ANY",
+        "course_points_enabled": "",
+        "course_points": "",
+        "course_points_access": "",
+        "course_disable_lesson_progression": "",
+        "expire_access": "",
+        "expire_access_days": 0,
+        "expire_access_delete_progress": "",
+        "_links": {
+            "self": [
+                {
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/sfwd-courses/43894"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/sfwd-courses"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/types/sfwd-courses"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/users/51"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 1,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/sfwd-courses/43894/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 43895,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/sfwd-courses/43894/revisions/43895"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/media/34304"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/media?parent=43894"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "ld_course_category",
+                    "embeddable": true,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/ld_course_category?post=43894"
+                },
+                {
+                    "taxonomy": "ld_course_tag",
+                    "embeddable": true,
+                    "href": "https://wordpress-575854-4040987.cloudwaysapps.com/wp-json/wp/v2/ld_course_tag?post=43894"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    }
+]
