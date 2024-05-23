@@ -1,15 +1,18 @@
 import 'package:cached_network_image/cached_network_image.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:inn/cards/category_card.dart';
+import 'package:inn/components/category_card.dart';
 import 'package:inn/constants/colors.dart';
 import 'package:inn/constants/widgets.dart';
 import 'package:inn/data/data.dart';
 import 'package:inn/models/channel_headlines_model.dart';
+import 'package:inn/screens/news_detail_screen.dart';
 import 'package:inn/view_model/news_view_model.dart';
 import 'package:intl/intl.dart';
 
 // default values
 enum FilterChannelList {
+  all,
   bbcNews,
   aryNews,
   independent,
@@ -80,9 +83,10 @@ class HomepageState extends State {
       setState(() {
         _selectedCountry = country;
       });
-      print(_selectedCountry);
+      if (kDebugMode) {
+        print(_selectedCountry);
+      }
     }
-
 
     void _onLanguageChanged(String? newLanguage) {
       setState(() {
@@ -111,6 +115,10 @@ class HomepageState extends State {
             ),
             initialValue: selectedChannel,
             onSelected: (FilterChannelList filterChannel) {
+              if (FilterChannelList.all.name == filterChannel.name) {
+                channelName = null;
+              }
+
               if (FilterChannelList.bbcNews.name == filterChannel.name) {
                 channelName = "bbc-news";
               }
@@ -128,6 +136,10 @@ class HomepageState extends State {
             },
             itemBuilder: (BuildContext context) =>
                 <PopupMenuEntry<FilterChannelList>>[
+              PopupMenuItem<FilterChannelList>(
+                value: FilterChannelList.all,
+                child: Text("All"),
+              ),
               PopupMenuItem<FilterChannelList>(
                 value: FilterChannelList.bbcNews,
                 child: Text("BBC News"),
@@ -259,8 +271,8 @@ class HomepageState extends State {
             height: height,
             width: width,
             child: FutureBuilder<ChannelHeadlinesModel>(
-              future: newsViewModel.FetchChannelHeadlinesParse(_selectedCountry,
-                  _selectedLanguage, channelName, _selectedCategory,null),
+              future: newsViewModel.FetchChannelHeadlinesParse(
+                  _selectedLanguage, channelName, _selectedCategory, null),
               builder: (context, snapshot) {
                 if (snapshot.connectionState == ConnectionState.waiting) {
                   // show spinner
@@ -278,64 +290,97 @@ class HomepageState extends State {
                           .toString());
 
                       // img to show
-                      return Stack(alignment: Alignment.center, children: [
-                        Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Container(
-                              padding: EdgeInsets.all(10),
-                              height: height * .3,
-                              width: width,
-                              child: ClipRRect(
-                                borderRadius: BorderRadius.circular(10),
-                                child: CachedNetworkImage(
-                                  fit: BoxFit.cover,
-                                  placeholder: (context, url) => Container(
-                                    child: loading_image,
+                      return InkWell(
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => NewsDetailScreen(
+                                urlToImage: snapshot
+                                    .data!.articles![index].urlToImage
+                                    .toString(),
+                                newsTitle: snapshot.data!.articles![index].title
+                                    .toString(),
+                                newsDate: snapshot
+                                    .data!.articles![index].publishedAt
+                                    .toString(),
+                                author: snapshot.data!.articles![index].author
+                                    .toString(),
+                                description: snapshot
+                                    .data!.articles![index].description
+                                    .toString(),
+                                content: snapshot.data!.articles![index].content
+                                    .toString(),
+                                source: snapshot
+                                    .data!.articles![index].source!.name
+                                    .toString(),
+                              ),
+                            ),
+                          );
+                        },
+                        child: Stack(alignment: Alignment.center, children: [
+                          Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Container(
+                                padding: EdgeInsets.all(10),
+                                height: height * .3,
+                                width: width,
+                                child: ClipRRect(
+                                  borderRadius: BorderRadius.circular(10),
+                                  child: CachedNetworkImage(
+                                    fit: BoxFit.cover,
+                                    placeholder: (context, url) => Container(
+                                      child: loading_image,
+                                    ),
+                                    errorWidget: (context, url, error) =>
+                                        error_icon,
+                                    imageUrl: snapshot
+                                        .data!.articles![index].urlToImage
+                                        .toString(),
                                   ),
-                                  errorWidget: (context, url, error) =>
-                                      error_icon,
-                                  imageUrl: snapshot
-                                      .data!.articles![index].urlToImage
-                                      .toString(),
                                 ),
                               ),
-                            ),
-                            Container(
-                              width: width,
-                              padding: EdgeInsets.only(
-                                  left: 10, right: 10, bottom: 10),
-                              child: Text(
-                                maxLines: 2,
-                                overflow: TextOverflow.ellipsis,
-                                snapshot.data!.articles![index].title
-                                    .toString(),
-                                style: const TextStyle(
-                                    fontSize: 18, fontWeight: FontWeight.w700),
+                              Container(
+                                width: width,
+                                padding: EdgeInsets.only(
+                                    left: 10, right: 10, bottom: 10),
+                                child: Text(
+                                  maxLines: 2,
+                                  overflow: TextOverflow.ellipsis,
+                                  snapshot.data!.articles![index].title
+                                      .toString(),
+                                  style: const TextStyle(
+                                      fontSize: 18,
+                                      fontWeight: FontWeight.w700),
+                                ),
                               ),
-                            ),
-                            Container(
-                              padding: EdgeInsets.only(left: 10, right: 10),
-                              width: width,
-                              child: Row(
-                                mainAxisAlignment:
-                                    MainAxisAlignment.spaceBetween,
-                                children: [
-                                  Text(datetimeFormat.format(publishedDateTime),
-                                      style: TextStyle(fontSize: 12)),
-                                  Text(
-                                    snapshot.data!.articles![index].source!.name
-                                        .toString(),
-                                    style: TextStyle(
-                                      fontSize: 12,
+                              Container(
+                                padding: EdgeInsets.only(left: 10, right: 10),
+                                width: width,
+                                child: Row(
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Text(
+                                        datetimeFormat
+                                            .format(publishedDateTime),
+                                        style: TextStyle(fontSize: 12)),
+                                    Text(
+                                      snapshot
+                                          .data!.articles![index].source!.name
+                                          .toString(),
+                                      style: TextStyle(
+                                        fontSize: 12,
+                                      ),
                                     ),
-                                  ),
-                                ],
+                                  ],
+                                ),
                               ),
-                            ),
-                          ],
-                        ),
-                      ]);
+                            ],
+                          ),
+                        ]),
+                      );
                     },
                   );
                 }

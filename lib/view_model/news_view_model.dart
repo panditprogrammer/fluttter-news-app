@@ -5,11 +5,10 @@ import 'package:inn/models/news_filter_model.dart';
 class NewsViewModel {
   final dataFromApi = FetchNews();
 // get data and return
-  Future<ChannelHeadlinesModel> FetchChannelHeadlinesParse(String? country,
-      String? language, String? source, String? category,String? q) async {
+  Future<ChannelHeadlinesModel> FetchChannelHeadlinesParse(String? language, String? source, String? category,String? q) async {
 
     final response =
-        await dataFromApi.FetchChannelHeadlines(country,language, source, category,q);
+        await dataFromApi.FetchChannelHeadlines(language, source, category,q);
     return response;
     
   }
